@@ -14,19 +14,16 @@ const Navbar = () => {
           <span className="font-semibold text-xl ml-2">Glyph Crypto</span> </Link>
             <ul className="items-stretch hidden space-x-3 lg:flex">
               <li className="flex justify-between w-full">
-                <a rel="noopener noreferrer" className="flex cursor-pointer  items-center px-4 -mb-1 font-semibold dark:border-transparent">Home</a>
+                <a rel="noopener noreferrer" className="flex cursor-pointer  items-center px-4 -mb-1 font-semibold dark:border-transparent" href='#H'>Home</a>
               </li>
               <li className="flex">
-                <a rel="noopener noreferrer" className="flex cursor-pointer  items-center px-4 -mb-1 font-semibold ">Company</a>
+                <a rel="noopener noreferrer" className="flex  cursor-pointer items-center px-4 -mb-1 font-semibold dark:border-transparent" href='#S'>Services</a>
               </li>
               <li className="flex">
-                <a rel="noopener noreferrer" className="flex  cursor-pointer items-center px-4 -mb-1 font-semibold dark:border-transparent">Services</a>
+                <a rel="noopener noreferrer" className="flex cursor-pointer  items-center px-4 -mb-1 font-semibold dark:border-transparent" href='#B'>Blog</a>
               </li>
               <li className="flex">
-                <a rel="noopener noreferrer" className="flex cursor-pointer  items-center px-4 -mb-1 font-semibold dark:border-transparent">Blog</a>
-              </li>
-              <li className="flex">
-                <a rel="noopener noreferrer" className="flex cursor-pointer  items-center px-4 -mb-1 font-semibold dark:border-transparent">Contact</a>
+                <a rel="noopener noreferrer" className="flex cursor-pointer  items-center px-4 -mb-1 font-semibold dark:border-transparent" href='#C'>Contact</a>
               </li>
             </ul>
           </div>
@@ -40,9 +37,8 @@ const Navbar = () => {
               <div className='w-32 sm:w-56'>
 
                 <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Homepage</a></li>
-                  <li><a>Portfolio</a></li>
-                  <li><a>About</a></li>
+                  <li><a href='H'>Homepage</a></li>
+                  <li><a href='A'>About</a></li>
                 </ul>
               </div>
 

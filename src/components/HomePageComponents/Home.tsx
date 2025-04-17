@@ -268,7 +268,7 @@ const HomeComnponent = () => {
             { /*OPTIONS HEADER */}
 
             {  /* SEARCH BAR */}
-            <div className={"flex flex-wrap items-center justify-center"}>
+            <div id='S' className={"flex flex-wrap items-center justify-center"}>
 
                 <div className='flex items-center gap-8 tableHeaderChild1 md:justify-center'>
 
@@ -312,7 +312,7 @@ const HomeComnponent = () => {
                 </div>
 
                 { /* FLTER TABS */}
-                <div className='flex gap-8 flex-wrap items-center ml-2 md:justify-center justify-around mt-5 md:mt-0'>
+                <div id='B' className='flex gap-8 flex-wrap items-center ml-2 md:justify-center justify-around mt-5 md:mt-0'>
                     <p className={`${tabState === "all coins" ? "flex justify-center items-center w-24 h-9 rounded-md border border-black cursor-pointer interFont scalee" : "flex justify-center items-center w-24 h-9 rounded-md greyBackground cursor-pointer interFont scalee"}`} onClick={allCoinsHandler}> All Coins </p>
                     <p className={`${tabState === "metaverse" ? "flex justify-center items-center w-24 h-9 rounded-md border border-black cursor-pointer interFont scalee" : "flex justify-center items-center w-24 h-9 rounded-md greyBackground cursor-pointer interFont scalee"}`} onClick={metaVerseCategrotyHandler}> Metaverse </p>
                     {  /* <p className={`${tabState === "gaming" ? "flex justify-center items-center w-24 h-9 rounded-md border border-black cursor-pointer interFont scalee" : "flex justify-center items-center w-24 h-9 rounded-md greyBackground cursor-pointer interFont scalee"}`} onClick={gamingCoinsCategoryHandler}> Gaming </p> */}
